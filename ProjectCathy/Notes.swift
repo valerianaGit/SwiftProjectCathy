@@ -9,10 +9,10 @@
 import Foundation
 
 class Notes {
-    var stack: String? //stacks are collections of folders... ARRAY OF NOTES, so probably need to make a Stack model and 
+    var stack: String? //stacks are collections of folders... ARRAY OF NOTES, so probably need to make a Stack model and add notes as one of the units ...or maybe the
     var tag: [String]?  //can be many tags//WILL PROBABLY NEED TO BE OF TYPE TAG. Array of tags
     var title: String?
-    var content: Any? // canbe string or image, drawing, anything the user needs to store
+    var content: Any? // can be string or image, drawing, anything the user needs to store
     
     init?(stack: String?, tag: [String]?, title: String?, content: Any?) {
         
@@ -26,3 +26,5 @@ class Notes {
     }
     
 }
+
+
